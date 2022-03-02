@@ -12,3 +12,14 @@ for(let i = 1; i <= 18; i++){
     container.appendChild(tempRow);
 }
 
+const columnList = document.querySelectorAll('.column');
+columnList.forEach(item => {
+    //console.log(item);
+    item.addEventListener('mouseover', action);
+});
+
+
+function action(e){
+    //console.log(e);
+    e.target.classList.add("activated");
+}
