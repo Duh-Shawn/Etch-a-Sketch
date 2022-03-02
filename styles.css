@@ -1,31 +1,49 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    min-height: 95vh;
+}
+
+header{
+    color: yellow;
+    font-family: 'Lobster', cursive;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: red;
 }
 
 #container{
-    height: 600px;
-    width: 600px;
-    border-style: solid;
+    padding: 50px;
+    padding-top: 0px;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    height: 650px;
+    width: 650px;
+    background-color: red;
+    border-radius: 25px;
 }
 
 .column{
     border-style: solid;
+    border-width: 0.5px;
     flex: 1;
+    background-color:white;
 }
 
 .row{
     display: flex;
-    border-style:solid;
     flex: 1;
 }
 
 .activated {
-    background-color: red;
+    background-color: black;
 }
