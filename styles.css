@@ -6,6 +6,15 @@ body{
     min-height: 95vh;
 }
 
+button{
+    font-size: 25px;
+}
+
+#controls{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 header{
     color: yellow;
     font-family: 'Lobster', cursive;
@@ -24,6 +33,7 @@ main{
 #container{
     padding: 50px;
     padding-top: 0px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     height: 650px;
