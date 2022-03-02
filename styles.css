@@ -1,8 +1,18 @@
-#container{
+body{
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+#container{
+    height: 600px;
+    width: 600px;
     border-style: solid;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .column{
